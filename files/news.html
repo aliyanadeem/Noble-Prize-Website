@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nobel Prize News</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: rgb(175, 182, 85);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: gold;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background: gold;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .news-container {
+            max-width: 1000px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .news-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 10px; 
+    }
+
+        .news-item img {
+            width: 150px; 
+            height: auto;
+            margin-right: 15px;
+            border-radius: 5px;
+    }
+    .news-item img {
+     margin-right: 20px;
+}
+
+
+        .social-icons a {
+            margin: 0 10px;
+            display: inline-block;
+        }
+        .social-icons img {
+            width: 40px;
+            height: 40px;
+        }
+        footer {
+            background-color:gold;
+            color: black;
+            text-align: center;
+            padding: 50px 20px;
+            margin-top: 40px;
+        }
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            text-align: left;
+            padding: 20px;
+            max-width: 1400px;
+            margin: auto;
+        }
+        .footer-section {
+            max-width: 350px;
+            margin-bottom: 20px;
+        }
+        .footer-links a {
+            color: blue;
+            text-decoration: none;
+            display: block;
+            margin: 5px 0;
+        }
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: rgb(191, 177, 96);
+            font-size: 24px;
+        }
+        .social-icons {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            display: inline-block;
+        }
+        .social-icons img {
+            width: 40px;
+            height: 40px;
+        }
+        .footer-social img {
+    width: 30px;
+    margin: 10px;
+}
+
+.footer-newsletter input {
+    padding: 8px;
+    width: 200px;
+}
+
+.footer-newsletter button {
+    padding: 8px 15px;
+    background: gold;
+    border: none;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <header>
+        Nobel Prize News
+    </header>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <div class="container">
+            <a class="navbar-brand" href="#">Nobel Prize...</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="categories.html">Categories</a></li>
+                    <li class="nav-item"><a class="nav-link" href="winners.html">Winners</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <div class="news-container">
+        <div class="news-item">
+            <img src="images/download (11).jpg"lt="News Image">
+            <div>
+                <h3>Breakthrough in Cancer Research Wins Nobel Prize</h3>
+                <p class="news-date">March 1, 2025</p>
+                <p>Scientists have been awarded the Nobel Prize in Medicine for their groundbreaking research in cancer treatment.</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <img src="images/download (8).jpg" alt="News Image">
+            <div>
+                <h3>Renowned Author Wins Nobel Prize in Literature</h3>
+                <p class="news-date">February 20, 2025</p>
+                <p>The Nobel Prize in Literature has been awarded to a celebrated writer for their exceptional contribution to world literature.</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <img src="images/images (8).jpg" alt="News Image">
+            <div>
+                <h3>Economic Model on Poverty Reduction Earns Nobel Prize</h3>
+                <p class="news-date">February 10, 2025</p>
+                <p>Economists have been honored for their innovative economic model aimed at reducing global poverty.</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <img src="images/download (10).jpg" alt="News Image">
+            <div>
+                <h3>Environmental Scientist Wins Nobel Prize for Climate Change Research</h3>
+                <p class="news-date">January 28, 2025</p>
+                <p>A scientist has been recognized for their contributions to understanding and combating climate change.</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <img src="images/download.jpg" alt="News Image">
+            <div>
+                <h3>Latest Nobel Prize Winners Announced</h3>
+                <p class="news-date">March 15, 2025</p>
+                <p>The Nobel Committee has announced the winners for 2025, recognizing outstanding contributions in various fields.</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <img src="images/images (7).jpg" alt="News Image">
+            <div>
+                <h3>Groundbreaking Physics Discovery Wins Nobel Prize</h3>
+                <p class="news-date">March 10, 2025</p>
+                <p>Researchers have been awarded the Nobel Prize in Physics for their discovery in quantum mechanics.</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <img src="images/download (7).jpg" alt="News Image">
+            <div>
+                <h3>Nobel Peace Prize Awarded to Humanitarian Group</h3>
+                <p class="news-date">March 5, 2025</p>
+                <p>A global humanitarian organization has been honored for its work in promoting peace and human rights.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About Us</h4>
+                    <p>The Nobel Prize honors outstanding contributions in various fields, inspiring innovation and global progress.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <div class="footer-links">
+                        <a href="home.html">🏠 Home</a>
+                        <a href="about.html">📖 About</a>
+                        <a href="categories.html">🥇 Categories</a>
+                        <a href="events.html">📖 Events</a>
+                        <a href="winners.html">🏆 Winners</a>
+                        <a href="news.html">📖 News</a>
+                        <a href="contact.html">📞 Contact</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p>Email: contact@nobelprize.org</p>
+                    <p>Phone: +123 456 7890</p>
+                    <p>Address: Stockholm, Sweden</p>
+                </div>
+            </div>
+            <div class="social-icons mt-3">
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><img src="images/download.png" alt="Facebook"></a>
+                    <a href="https://twitter-cl.vercel.app/login"><img src="images/download (2).png" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/accounts/login/?hl=en"><img src="images/download (9).jpg" alt="Instagram"></a>
+                </div>
+                <div class="footer-newsletter">
+                    <form>
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+                <script>
+                    function subscribe(event) {
+                 event.preventDefault(); 
+                  let email = document.getElementById("email").value;
+                    if (email) {
+                    alert(`Thank you for subscribing with ${email}!`);
+            }}
+          </script>
+            <p>© 2025 Nobel Prize. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
